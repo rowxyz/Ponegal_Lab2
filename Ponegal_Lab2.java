@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// Base class
 class Cylinder {
     double radius, height;
     String unit;
@@ -21,7 +20,6 @@ class Cylinder {
     }
 }
 
-// Derived class
 class CylinderVol extends Cylinder {
 
     // Method to compute the volume
